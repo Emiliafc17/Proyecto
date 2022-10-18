@@ -1,0 +1,24 @@
+footer{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    font-family: var(--fuente-1);
+}
+.footer-inf{
+    margin-top: 20px;
+}
+.footer-inf a{
+    color: aliceblue;
+}
+.LogoUleam2{
+    padding-top: 20px;
+    justify-items: center;
+    height: 100%;
+
+}
+.LogoUleam2 img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 70px;
+}

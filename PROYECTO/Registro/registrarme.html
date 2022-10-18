@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/nav.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/registro.css">
+    <title>Registrarme</title>
+</head>
+<body>
+    <!--header-menu-->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h1>OJO<b>ULEAM</b></h1>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li class="menu-selected"><a href="../Inicio/index.html">Inicio</a></li> <!-- se usa "#" para que no nos redirija a otra página-->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="conteiner__registro">
+            <form class="conteiner__registro-form" id="formulario">
+                <div class="registro__form-title">
+                    <h1>Registrarme</h1>
+                </div>
+                
+                <div class="registro__form-input">
+                    
+                    <!--Ingreso de nombre-->
+                    <div class="registro__form">
+                        <div class="registro__form-group">
+                            <div class="form__group-title">
+                                <h1>Nombre:</h1>
+                            </div>
+                            <div class="form__group-input">
+                                <input type="text" class="form__group-control" placeholder="Nombre " id="RegistroNombre" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Ingreso de Cédula-->
+                    <div class="registro__form">
+                        <div class="registro__form-group">
+                            <div class="form__group-title">
+                                <h1>Número de cédula:</h1>
+                            </div>
+                            <div class="form__group-input">
+                                <input type="number" class="form__group-control" placeholder="Numero de Cédula " id="RegistroCedula" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Ingreso de Correo-->
+                    <div class="registro__form">
+                        <div class="registro__form-group">
+                            <div class="form__group-title">
+                                <h1>Correo institucional:</h1>
+                            </div>
+                            <div class="form__group-input">
+                                <input type="email" class="form__group-control" placeholder="Correo " id="Registroemail" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Ingreso de Contraseña-->
+                    <div class="registro__form">
+                        <div class="registro__form-group">
+                            <div class="form__group-title">
+                                <h1>Contraseña:</h1>
+                            </div>
+                            <div class="form__group-input">
+                                <input type="password" class="form__group-control" placeholder="Contraseña " id="password" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Ingreso de Contraseña-->
+                    <div class="registro__form">
+                        <div class="registro__form-group">
+                            <div class="form__group-title">
+                                <h1>Confirmar Contraseña:</h1>
+                            </div>
+                            <div class="form__group-input">
+                                <input type="password" class="form__group-control" placeholder="Confirmar Contraseña " id="confpassword" required>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+
+                <div class="form__info-login">
+                    <a href="../Login/login.html">
+                        <button type="submit"  class="log-btn" id="btn_continuar">Continuar </button>
+                    </a>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <script src="../JS/registro.js"></script>
+
+    <footer>
+        <div class="LogoUleam2">
+            <img src="../img/logo_u2.png">
+        </div>
+        <nav class="footer-inf">
+            <a href="#"><pre><center>ULEAM @ Copyright 2022, Todos los derechos reservados - Universidad Laica Eloy Alfaro de Manabí</center></pre></a>
+            <a href="#"><pre><center>Dirección: Av. Circunvalación - Vía a San Mateo</center></pre></a>
+            <a href="#"><pre><center>Manta - Manabí - Ecuador</center></pre></a>
+        </nav>
+    </footer>
+</body>
+</html>

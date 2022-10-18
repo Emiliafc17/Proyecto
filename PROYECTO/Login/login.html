@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/nav.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+    <!--header-menu-->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h1>OJO<b>ULEAM</b></h1>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li class="menu-selected"><a href="../Inicio/index.html">Inicio</a></li> <!-- se usa "#" para que no nos redirija a otra página-->
+                        <li class="menu-selected"><a href="../Registro/registrarme.html">Registrarme</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="conteiner__login">
+            <form class="conteiner__login-form" id="formulario">
+                <div class="login__form-title">
+                    <h1>Iniciar Sesión</h1>
+                </div>
+                <div class="login__form-group ">
+                    <input type="text" class="form__group-control" placeholder="Usuario " id="UserName" required>
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="login__form-group log-status">
+                    <input type="password" class="form__group-control" placeholder="Contraseña" id="password" required>
+                    <span class="icon-eye">
+                    <i class="fa-solid fa-eye-slash"></i>
+                    </span>
+                </div>
+                <div class="login__form-info">
+                    <div class="form__info-forget">
+                        <a class="link" href="#">Forgort your password?</a>
+                    </div>
+                    <div class="form__info-login">
+                        <a href="../inicioEstudiante/inicioEstudiante.html"><button type="submit"  class="log-btn" id="btn_login">Iniciar sesion </button></a>
+                    </div>
+                    
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="../JS/login.js"></script>
+    <footer>
+        <div class="LogoUleam2">
+            <img src="../img/logo_u2.png">
+        </div>
+        <nav class="footer-inf">
+            <a href="#"><pre><center>ULEAM @ Copyright 2022, Todos los derechos reservados - Universidad Laica Eloy Alfaro de Manabí</center></pre></a>
+            <a href="#"><pre><center>Dirección: Av. Circunvalación - Vía a San Mateo</center></pre></a>
+            <a href="#"><pre><center>Manta - Manabí - Ecuador</center></pre></a>
+        </nav>
+    </footer>
+</body>
+</html>
