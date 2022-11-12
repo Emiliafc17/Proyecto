@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/footer.css">
-    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="stylesheet" href="../CSS/loginDcnStud.css">
     <title>Iniciar Sesión</title>
 </head>
 <body>
@@ -28,25 +28,35 @@
     </header>
 
     <section>
-        <section class="about-services">
-            <div class="cont_contenedor">
-
-                <form class="formulario">
-                    <div class="contenedor-1">
-                        <h1 class="titulo1">ESTUDIANTE</h1>
-                        <a href="../Login/LoginStudi.html"> <img class="imagen" src="../img/estudiante.png" alt="/"> </a>
+        <div class="conteiner__login">
+            <form class="conteiner__login-form" id="formulario">
+                <div class="login__form-title">
+                    <h1>Iniciar Sesión</h1>
+                </div>
+                <div class="login__form-group ">
+                    <input type="text" class="form__group-control" placeholder="Usuario " id="UserName" required>
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="login__form-group log-status">
+                    <input type="password" class="form__group-control" placeholder="Contraseña" id="password" required>
+                    <span class="icon-eye">
+                    <i class="fa-solid fa-eye-slash"></i>
+                    </span>
+                </div>
+                <div class="login__form-info">
+                    <div class="form__info-forget">
+                        <a class="link" href="#">Forgort your password?</a>
+                    </div>
+                    <div class="form__info-login">
+                        <a href="../inicioEstudiante/inicioEstudiante.html" type="submit"  class="log-btn" id="btn_login">Iniciar Sesion
+                        </a>
                     </div>
                     
-                    <div class="contenedor-2">
-                        <h1 class="titulo1">DOCENTE</h1>
-                        <a href="../Login/LoginDcnt.html"> <img class="imagen" src="../IMG/profesor.png" alt=""></a>
-                    </div>
-                </form>
-            </div>
-
+                </div>
+            </form>
+        </div>
     </section>
     <script src="../JS/login.js"></script>
-
     <footer>
         <div class="LogoUleam2">
             <div class="img2">

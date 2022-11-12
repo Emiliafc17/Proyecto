@@ -14,11 +14,17 @@ footer{
     padding-top: 20px;
     justify-items: center;
     height: 100%;
+    
+    
 
 }
-.LogoUleam2 img{
+.img2{
     display: block;
     margin: auto;
+    background-image: url(../img/logo_u2.png);
+    background-position: center; /*Centrar imagen*/
+    background-size: cover;/*Hace que la imagen se expanda si se ajusta el tamaño del navegador y asi no se repita*/
+    background-repeat: no-repeat;
     width: 200px;
     height: 70px;
 }

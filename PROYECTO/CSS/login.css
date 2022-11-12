@@ -2,41 +2,34 @@ section{
     margin-top: 80px;
     background-color: rgba(0, 85, 42, 0.452);
 }
-.conteiner__login{
-    padding: 60px 60px;
+.about-services{
+    margin: auto;
     height: 400px;
-    margin: 0 400px;
-    background-color: rgb(251, 255, 254);
 }
-.login__form-title{
+.contenedor-1{
     text-align: center;
+    font-family: var(--fuente-1);
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    background: white;
+    position: absolute;
+    left: 200px;
+    top: 200px;
 }
-.login__form-group{
-    margin: 20px 40px;
-    
-}
-.form__group-control{
-    width: 100%;
-    height: 40px;
-    padding-left: 20px;
-}
-.login__form-info{
-    margin-top: 20px;
-}
-.form__info-forget{
-    margin-top: 5px;
+
+.contenedor-2{
     text-align: center;
+    font-family: var(--fuente-1);
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    background: white;
+    position: absolute;
+    left: 800px;
+    top: 200px;
 }
-.form__info-login{
-    margin: 20px 40px;
-    align-items: center;
-}
-.log-btn{
-    width: 100%;
-    height: 40px;
-    background-color: rgb(0, 85, 42);
-    color: aliceblue;
-    font-family: 'Secular One', sans-serif;
-    font-size: 18px;
-    border-radius: 10px;
+
+.imagen{
+    width: 50%;
 }

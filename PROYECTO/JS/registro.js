@@ -1,4 +1,3 @@
-
 const nombre = document.getElementById("RegistroNombre")
 const cedula = document.getElementById("RegistroCedula")
 const email = document.getElementById("Registroemail")

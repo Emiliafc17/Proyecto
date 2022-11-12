@@ -1,0 +1,101 @@
+body{
+    background-color:rgb(49, 0, 0);
+}
+section{
+    margin: 80px 200px 0;
+    height: auto;
+    
+}
+.contenedor-section{
+    position: static;
+    background-color: rgb(252, 242, 238);
+    padding: 20px;
+}
+.contenedor-section__title{
+    background-color: rgb(255, 236, 149);
+    height: 80px;
+    
+}
+.contenedor-section__title h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.contenedor-section__group{
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.274);
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: stretch;
+    
+    
+}
+.section-group__box{
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    width: 350px;
+}
+
+.group-box__video{
+    padding: 20px 25px 5px;
+}
+.group-box__descripcion{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px 20px;
+}
+.group-box__content{
+    width: 200px;
+    margin-right: 10px;
+}
+.group-box__title{
+    
+}
+.group-box__title h2{
+    font-size: 18px;
+    text-align: left;
+}
+.group-box__detail{
+
+}
+.group-box__detail p{
+    font-size: 12px;
+    text-align:left;
+}
+
+.group-box__button{
+
+}
+.box-button__click{
+    
+}
+.input-button{
+    width: 90px;
+    margin-bottom: 5px;
+    height: 20px;
+}
+#editar{
+    background-color: rgb(31, 148, 2);
+    color: rgb(255, 255, 255);
+    border-radius: 5%;
+    border-style: groove;
+    border-color: black;
+    font-size: 12px;
+}   
+#eliminar{
+    background-color: rgb(148, 2, 2);
+    color: rgb(255, 255, 255);
+    border-radius: 5%;
+    border-style: groove;
+    border-color: black;
+    font-size: 12px;
+}
+#detalle{
+    background-color: rgb(2, 119, 148);
+    color: rgb(255, 255, 255);
+    border-radius: 5%;
+    border-style: groove;
+    border-color: black;
+    font-size: 12px;
+}
